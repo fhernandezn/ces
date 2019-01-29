@@ -1,0 +1,23 @@
+{
+  "name": "ces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "10.15.1",
+    "npm": "6.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhernandezn/ces.git"
+  },
+  "author": "jpineda@nearsoft.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fhernandezn/ces/issues"
+  },
+  "homepage": "https://github.com/fhernandezn/ces#readme"
+}
