@@ -19,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/fhernandezn/ces/issues"
   },
-  "homepage": "https://github.com/fhernandezn/ces#readme"
+  "homepage": "https://github.com/fhernandezn/ces#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "sequelize": "^4.42.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
 }
