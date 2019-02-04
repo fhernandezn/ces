@@ -8,6 +8,7 @@
     "npm": "6.4.1"
   },
   "scripts": {
+    "postinstall": "cd ces && npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "node_modules/.bin/concurrently -r \"node_modules/.bin/nodemon index.js\" \"cd ces && npm start\""
   },
