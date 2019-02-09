@@ -9,7 +9,16 @@ Sistema para llevar el control de alumnos en escuelas primarias. Cuenta con dive
 
 
 ## Instalacion
+- npm install -g concurrently nodemon
 - npm install
+
+## Base de datos
+- Crear la base de datos `ces` en `postgres`
+
+## Variables de entorno
+Crea tu propio archivo de configuracion de variables `.env` a partir del archivo de ejemplo `.env.example`
+
+PORT: puerto donde corre el servidor de node
 
 ## Testing
 - cd ces && npm run test
