@@ -16,6 +16,11 @@ app.use( bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true})); 
 app.use(routes);
 
+app.use((err, req, res, next) => {
+    console.error(err);
+    res.status(500).send(err.message);
+});
+
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
